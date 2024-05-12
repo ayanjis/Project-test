@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.infoFarmsLocation{
+    width: 28rem;
+    height: 30rem;
+    background-color: #FFFFFF;
+    border-radius: 3rem;
+    padding: 3rem 4rem;
+}
+.infoFarmsLocation h3{
+    font-weight: 400;
+    font-size: 3rem;
+    font-family: 'Yellowtail';
+    color:#7EB693;
+    margin: 0%;
+}
+
+.infoFarmsLocation h1{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 4rem;
+    color:#274C5B;
+    margin: 0%;
+}
+
+.infoFarmsLocation p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #525C60;
+    line-height: 1.9rem;
+}
+.infoFarmsLocation .ContactFarms{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.infoFarmsLocation .pointAboutUs{
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.infoFarmsLocation .pointAboutUs .icon img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.infoFarmsLocation .pointAboutUs .description{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.infoFarmsLocation .pointAboutUs .description .title, .text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #525C60;
+    margin: 0;
+    line-height: 1.4rem;
+}
+.infoFarmsLocation .pointAboutUs .description .title{
+    font-weight: 700;
+}
+.infoFarmsLocation .pointAboutUs .description .text{
+    font-weight: 400;
+}
+
+

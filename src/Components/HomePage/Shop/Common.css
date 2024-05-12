@@ -1,0 +1,58 @@
+.ShopCard{
+    background-color: #F9F8F8;
+    border-radius: 2rem;
+    width: 22rem;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 3.3rem;
+    padding: 1.3rem;
+}
+
+.ShopCard p {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    border-top: 1px solid #DEDDDD;
+    padding-top: 0.3rem;
+}
+.ShopCard .ImgProducts{
+    width: 19rem;
+    height: 19rem;
+}
+
+.ShopCard .title{
+    font-family: 'Open Sans';
+    background-color: #274C5B;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 0.8rem;
+    padding: 0.2rem 0.9rem 0.3rem;
+}
+.ShopCard  .ProductName{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #274C5B;
+}
+
+.ShopCard p .discount{
+    font-family: 'Open Sans';
+    font-family: 600;
+    font-size: 1rem;
+    color: #B8B8B8;
+    text-decoration: line-through; 
+}
+.ShopCard p .Price{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #274C5B;
+}
+.ShopCard p img{
+    margin-left: 3rem;
+}

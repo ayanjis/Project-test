@@ -1,0 +1,17 @@
+ .myformInput{
+    padding: 2rem ;
+    border: 1px solid #7EB693;
+    border-radius: 1.6rem;
+    border: 2px solid black;
+}
+
+.myformLabel{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Roboto';
+    color: #274C5B;
+    line-height: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem; 
+}

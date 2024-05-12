@@ -1,0 +1,14 @@
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.logo img{
+    width: 2.7rem;
+    height: 4rem;
+}
+.logo h1{
+    font-weight: 700;
+    font-size: 2.6rem;
+    color:#274C5B;
+}

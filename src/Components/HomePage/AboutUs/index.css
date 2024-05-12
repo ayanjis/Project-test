@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+.AboutUs{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    margin: 10rem 0rem;
+}
+
+.AboutUs .OrangeBg img{
+    width: 211%;
+}
+.AboutUs .contentAboutUs{
+    width: 150%;
+}
+
+.AboutUs .contentAboutUs .titleAboutUs{
+    font-weight: 400;
+    font-size: 3rem;
+    font-family: 'Yellowtail';
+    color:#7EB693;
+    margin: 0%;
+}
+
+.AboutUs .contentAboutUs .descripAboutUs, .textAboutUs{
+    display: flex;
+    flex-direction: column;
+}
+.AboutUs .contentAboutUs .descripAboutUs{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 4rem;
+    color:#274C5B;
+    margin: 1rem 0rem;
+}
+
+.AboutUs .contentAboutUs .textAboutUs{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #525C60;
+    line-height: 1.9rem;
+}
+
+.PointsAboutUs{
+    margin: 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.AboutUs .contentAboutUs .pointAboutUs{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.AboutUs .contentAboutUs .pointAboutUs .icon {
+    background: #FFFFFF;
+    height: 100%;
+    padding: 1.7rem;
+    border-radius: 2rem;
+}
+.AboutUs .contentAboutUs .pointAboutUs .icon  img{
+    width: 3.6rem;
+    height: 3.6rem;
+}
+.AboutUs .contentAboutUs .pointAboutUs .description .title{
+    font-family:'Roboto' ;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #274C5B;
+    margin-bottom: 0rem;
+}
+.AboutUs .contentAboutUs .pointAboutUs .description{
+    width: 60%;
+}
+.AboutUs .contentAboutUs .pointAboutUs .description .text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #525C60;
+    line-height: 1.9rem;
+}
+
+.AboutUs .contentAboutUs .shopNowBnt{
+    all: unset;
+    margin-top: 4rem;
+    width: 18rem;
+    height: 6.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1.6rem;
+    color: #FFFFFF;
+    background-color: #274C5B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.productInformation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 8rem;
+    margin-top: 4rem;
+}
+
+.productInformation .readMore{
+    display: flex;
+    gap:1rem;
+}
+
+.productInformation .readMore .bntDescription img,
+.bntAdditional img {
+    display: none;
+}
+
+.productInformation .moreInfoDescrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #525C60;
+    line-height: 2.5rem;
+}

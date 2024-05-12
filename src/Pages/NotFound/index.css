@@ -1,0 +1,36 @@
+.contentNotFound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14rem;
+    margin-bottom: 15rem;
+}
+
+.titleNotFound{
+    color: #8FA8A8;
+    font-size: 21rem;
+}
+
+.subtitleNotFound{
+    color: #274C5B;
+    font-weight: 800;
+    font-size: 5.3rem;
+    line-height: 0;
+}
+
+.textNotFound{
+    color: #525C60;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+}
+
+.returnButton{
+    color : #FFFFFF;
+    background-color: #274C5B;
+    margin-right: 20rem;
+    padding-inline : 1.5rem;
+    border-radius: 1.3rem;
+    width: 19rem;
+}

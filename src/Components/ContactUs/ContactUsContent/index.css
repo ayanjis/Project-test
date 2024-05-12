@@ -1,0 +1,99 @@
+article{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 6rem;
+    margin-bottom: 7rem;
+}
+article .ImgContent img{
+    width: 44rem;
+    height: 45rem;
+    border-radius: 2rem;  
+}
+
+article .textContent .titleTextContent{
+    font-family: 'Roboto';
+    font-weight: 800;
+    font-size: 3.5rem;
+    color: #274C5B;
+    margin-bottom: 0;
+}
+
+article .textContent .descripTextContent{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #525C60;
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+article .textContent  .titleTextContent, .descripTextContent{
+    display: flex;
+    flex-direction: column;
+}
+
+article .textContent .pointsContactUs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+article .textContent .pointsContactUs .pointAboutUs{
+    border: 1px solid #EEEEEE;
+    width: 22rem;
+    height: 6rem;
+    display: flex;
+    gap: 1rem;
+    padding: 0.7rem;
+    border-radius: 1.6rem;
+}
+
+article .textContent .pointsContactUs .pointAboutUs .title{
+    color: #274C5B;
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+    margin-bottom: 0;
+}
+
+article .textContent .pointsContactUs .pointAboutUs .text{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #525C60;
+    font-family: 'Open Sans';
+}
+
+article .textContent .pointsContactUs .pointAboutUs .icon{
+    width: 6rem;
+    height: 6rem;
+    background-color: #F4F4F4;
+    border-radius: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+article .textContent .pointsContactUs .pointAboutUs img{
+    width: 3.5rem;
+    height: 2.5rem;
+}
+
+article .textContent .socialMedias{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-block: 2.3rem;
+}
+
+article .textContent  .socialMedias .socialMediasIcons{
+    background-color: #EFF6F1;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
